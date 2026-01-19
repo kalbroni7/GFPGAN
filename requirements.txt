@@ -10,3 +10,4 @@ torch>=1.7
 torchvision
 tqdm
 yapf
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
