@@ -6,7 +6,8 @@ opencv-python
 pyyaml
 scipy
 tb-nightly
-torch>=1.7
+torch>=2.10.0
 torchvision
 tqdm
 yapf
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
